@@ -1,6 +1,6 @@
 globals [ 
   color-by-unhappiness?    ;; Belongs to the original file.
-  sim-step                   ;; Step is the "ticks" value metric to be send to the file.
+  sim-step                 ;; Step is the "ticks" value metric to be send to the file.
   unhappiness-average      ;; The bugs unhappiness average metric to be send to the file.
 ]
 
@@ -38,7 +38,7 @@ to setup
   ;; plot the initial state of the system
   reset-ticks
   
-  ;; my code: Gatther itnitial stats.
+  ;; my code: Gatther initial stats.
   set sim-step ticks
   set unhappiness-average mean [unhappiness] of turtles
 
